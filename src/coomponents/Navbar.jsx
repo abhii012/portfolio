@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="logo bg-gradient-to-r from-[#2E3192]  to-[#1BFFFF] bg-clip-text text-transparent text-3xl">Deepak</div>
     <div className='font-outfit text-center  list-none flex gap-10 justify-center  cursor-pointer text-lg'>
       <li><Link to='home' smooth={true} duration={500}  isDynamic={true}  >Home</Link></li>
-      <li><Link to='about' smooth={true} duration={500}>About Me</Link></li>
+{/*       <li><Link to='about' smooth={true} duration={500}>About Me</Link></li> */}
       <li><Link to='skills' smooth={true} duration={500}>Skills</Link></li>
       <li><Link to='contact' smooth={true} duration={500}>Contact Me</Link></li>
     </div>
