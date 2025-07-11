@@ -14,7 +14,6 @@ function App() {
     <div className='bg-gradient-to-br from-[#000000] to-cyan-800'>
       <Navbar/>
       <Hero/>
-      <About/>
       <Skills/>
       <ScrollToTop/>
       <Form/>
