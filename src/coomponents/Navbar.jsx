@@ -4,7 +4,7 @@ import portfoliologo from '../assets/portfolio-logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 bg-black bg-opacity-60 backdrop-blur-md py-4 px-6 w-full  border-0.5 border-cyan-400 shadow-[0_0_20px_0px_rgba(6,182,212,0.75)]">
+    <nav className="sticky top-0 z-50 bg-black bg-opacity-60 backdrop-blur-md py-4 px-6 w-full  border-0.5 ">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between text-white">
         <div className="flex items-center justify-between w-full sm:w-auto">
           <div className="text-2xl sm:text-3xl bg-gradient-to-r from-[#2E3192] to-[#1BFFFF] bg-clip-text text-transparent font-bold">Deepak</div>
