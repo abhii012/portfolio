@@ -33,7 +33,7 @@ function Form() {
     <Element name='contact'>
     <form onSubmit={handleSubmit(onSubmit) } className='max-w-xs sm:max-w-md mx-auto mt-8 min-h-screen pt-30 sm:pt-20 '>
       <h1 className='text-center text-xl sm:text-4xl text-slate-200 mb-10'>Connect With ME</h1>
-      <div  className=' form-box bg-[#18181899] backdrop-blur-2xl rounded-lg min-h-[70vh] sm:min-h-[70vh] p-2 sm:p-5 text-white  scale-90 sm:scale-100'>
+      <div  className=' form-box bg-[#18181899] backdrop-blur-2xl rounded-lg min-h-[70vh] sm:min-h-[70vh] p-2 sm:p-5 text-white  scale-90 sm:scale-100  border-0.5 border-cyan-400 shadow-[0_0_20px_0px_rgba(6,182,212,0.75)]'>
         <div className='form-field scale-90 sm:scale-100'>
       <Input name="name" control={control} className="mt-3 rounded-xl w-full" label="Name"/>
       <Input name="email" control={control} className="mt-3 rounded-xl w-full" label="Email"/>
